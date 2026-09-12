@@ -10,9 +10,9 @@ O sistema informatiza o processo de matrícula semestral de uma universidade, co
 ### 1.1 Requisitos funcionais (RF):
 **RF-001:** O usuário autentica no sistema
 **RF-002:** A secretaria gera currículo
-**RF-003:** A secretaria gerencia as disciplinas
-**RF-004:** A secretaria gerencia os professores
-**RF-005:** A secretaria gerencia os alunos
+**RF-003:** A secretaria visualiza as disciplinas
+**RF-004:** A secretaria visualiza os professores
+**RF-005:** A secretaria visualiza os alunos
 **RF-006:** O aluno efetua matrícula
 **RF-007:** O aluno cancela matrícula
 **RF-008:** O professor consulta os alunos cadastrados em cada disciplina
@@ -28,9 +28,12 @@ Veja o [documento com requisitos do sistema e as regras de negócio](docs/sistem
 ---
 ## 3. Modelagem e Diagramas UML
 
-Veja o [diagrama de casos de uso](docs/diagrama-casos-de-uso.pdf) completo referente ao sistema.
+### 3.1 Diagrama de Casos de Uso
+Veja o [diagrama de casos de uso](docs/diagrama-casos-de-uso.pdf) referente ao sistema.
 
+### 3.2 Diagrama de Classes
 Clique no link para ver o [diagrama de classes](./) do sistema.
+
 ---
 
 ## 🛠️ Tecnologias e Modelagem
