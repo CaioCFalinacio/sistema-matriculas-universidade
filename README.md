@@ -21,3 +21,12 @@ O sistema informatiza o processo de matrícula semestral de uma universidade, co
 ├── docs/                 # Modelos UML, diagramas e histórias de usuário
 ├── src/                  # Código-fonte da aplicação Java
 └── README.md             # Documentação principal
+```
+
+---
+
+## 👥 Autores
+
+* Caio César Falinacio dos Santos
+* Luiz Fernando Cunha Maia
+* Pedro Henrique Nogueira
