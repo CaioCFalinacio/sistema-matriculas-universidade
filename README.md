@@ -18,13 +18,76 @@ O sistema informatiza o processo de matrícula semestral de uma universidade, co
 - **RF-008:** O professor consulta os alunos cadastrados em cada disciplina
 - **RF-009:** O sistema de matrículas deve enviar uma notificação ao sistema de cobranças informando as inscrições de um aluno
 
-### 1.2 Requisitos não funcionais:
+### 1.2 Requisitos não funcionais (RNF):
 - **RFN-001:** O sistema deve ser desenvolvido utilizando a linguagem de programação Java.
 - **RFN-002:** O software deve possuir um mecanismo de persistência de dados.
 
 Veja o [documento com requisitos do sistema e as regras de negócio](docs/sistema-matricula-requisitos.pdf).
 ---
 ## 2. Histórias de Usuário (User Stories)
+
+
+### 2.1 Histórias de Usuário - Aluno
+
+**USER STORY 01**
+
+* **Como um** aluno
+* **eu quero** efetuar minha matrícula no sistema
+* **para que** eu possa garantir minha vaga e participar das disciplinas do semestre.
+
+**USER STORY 02**
+
+* **Como um** aluno
+* **eu quero** cancelar minha matrícula
+* **para que** eu possa desistir da disciplina dentro do prazo permitido sem gerar pendências.
+
+---
+
+### 2.2 Histórias de Usuário - Secretaria
+
+**USER STORY 03**
+
+* **Como um** usuário da secretaria
+* **eu quero** gerenciar os cadastros de alunos (incluir, alterar, consultar e remover)
+* **para que** os dados acadêmicos dos estudantes estejam sempre atualizados.
+
+**USER STORY 04**
+
+* **Como um** usuário da secretaria
+* **eu quero** gerenciar os cadastros de professores (incluir, alterar, consultar e remover)
+* **para que** a alocação docente fique devidamente registrada no sistema.
+
+**USER STORY 05**
+
+* **Como um** usuário da secretaria
+* **eu quero** gerar o currículo acadêmico
+* **para que** a grade curricular do curso seja disponibilizada e atualizada para os alunos.
+
+---
+
+### 2.3 Histórias de Usuário - Professor
+
+**USER STORY 06**
+
+* **Como um** professor
+* **eu quero** consultar a lista de alunos cadastrados em minhas turmas
+* **para que** eu possa realizar o acompanhamento de presença e notas.
+---
+
+** 2.4 Histórias de Usuário Transversais (Usuário Geral / Sistema)**
+
+**USER STORY 07**
+
+* **Como um** usuário do sistema (aluno, professor ou secretaria)
+* **eu quero** me autenticar no sistema com login e senha
+* **para que** eu tenha acesso seguro às funcionalidades específicas do meu perfil.
+
+**USER STORY 08**
+
+* **Como um** usuário do sistema
+* **eu quero** que o sistema envie uma notificação ao Sistema de Cobrança ao efetuar ou alterar matrículas
+* **para que** a emissão de boletos e o controle financeiro ocorram de forma automática.
+  
 ---
 ## 3. Modelagem e Diagramas UML
 
