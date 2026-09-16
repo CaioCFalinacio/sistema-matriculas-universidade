@@ -74,7 +74,7 @@ Veja o [documento com requisitos do sistema e as regras de negócio](docs/sistem
 * **para que** eu possa realizar o acompanhamento de presença e notas.
 ---
 
-** 2.4 Histórias de Usuário Transversais (Usuário Geral / Sistema)**
+### 2.4 Histórias de Usuário Transversais (Usuário Geral / Sistema)
 
 **USER STORY 07**
 
